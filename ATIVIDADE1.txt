@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main()
+{
+    int tabuada, x;
+    printf("\nEscoha sua tabuada:  \n");
+    scanf("%d", &tabuada);
+    
+   
+    for (x = 0; x <= 10; x++)
+    {
+        
+    printf("\n%d x %d = %d\n " , x, tabuada, x * tabuada );
+        
+    }
+
+
+    
+    
+    
+    return 0;
+}
